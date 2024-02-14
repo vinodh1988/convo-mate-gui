@@ -1,0 +1,16 @@
+#slot {
+    overflow: hidden;
+    width: 100%;
+}
+
+#left-block {
+    box-sizing: border-box;
+    float: left;
+    width: 35%;
+}
+
+#rigth-block {
+    box-sizing: border-box;
+    float: left;
+    width: 65%;
+}

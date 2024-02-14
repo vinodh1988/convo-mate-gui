@@ -1,0 +1,16 @@
+.name {
+    color: rgb(244, 42, 42);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.convobox {
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.content {
+    padding: 10px;
+    margin: 15px;
+}

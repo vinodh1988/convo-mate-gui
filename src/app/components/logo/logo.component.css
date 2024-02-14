@@ -1,0 +1,13 @@
+#logo {
+ 
+    color: white;
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 3px gray;
+    width: 250px;
+    text-align: center;
+    border-bottom: 4px solid rgb(134, 17, 17);
+    font-weight: bolder;
+}

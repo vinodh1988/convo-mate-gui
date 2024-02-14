@@ -1,0 +1,32 @@
+
+
+<div id="slot">
+    <div id="left-block">
+        <app-logo></app-logo>
+        
+        <div>
+            <label>Context of the conversation</label><br/><br/>
+            <textarea [(ngModel)]="context"></textarea><br/><br/>
+            <button class="btn btn-danger" (click)="doApiCall()">Get The Conversation</button>
+        </div>
+        <br/><br/>
+        <div *ngIf="show">
+            <label>Translate the text</label><br/><br/> 
+            <select [(ngModel)]="language"><option *ngFor="let n of languages">{{n}}</option></select>
+            <button class="btn btn-danger" (click)="doTranslateCall()">Get The Translation</button>
+        </div>
+    </div>
+    <div id="right-block">
+        <mat-tab-group fitInkBarToContent  [(selectedIndex)]="tabIndex">
+            <mat-tab label="Conversation">
+                <app-originalslot [info]="current"></app-originalslot>
+            </mat-tab>
+            <mat-tab label="Translated Text" *ngIf="show">
+                <app-translatedslot [info]="tcurrent" ></app-translatedslot>
+            </mat-tab>
+         
+            
+    </mat-tab-group>
+    </div>
+  </div>
+  

@@ -1,0 +1,17 @@
+
+<div *ngIf="loading" class="content">
+   <app-loading></app-loading>
+</div>
+<div *ngIf="conversation" class="content">
+    
+    <div *ngFor="let x of convoset" class="content">
+           <span class="name"> {{x.split(":")[0]}} : </span>
+           {{x.split(":")[1]}} 
+    </div>
+</div>
+<div *ngIf="notable" class="content">
+    {{info}}
+</div>
+<div *ngIf="nothingyet" class="content">
+   No  converstation yet
+</div>

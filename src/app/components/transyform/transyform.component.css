@@ -1,0 +1,25 @@
+#slot {
+    overflow: hidden;
+    width: 100%;
+}
+
+#left-block {
+    box-sizing: border-box;
+    float: left;
+    width: 35%;
+    padding: 30px;
+    background-color: rgb(4, 4, 61);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 600px;
+}
+
+#right-block {
+    box-sizing: border-box;
+    float: left;
+    width: 65%;
+    background-color: rgb(220, 220, 226);
+    color: rgb(15, 15, 49);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 600px;
+}
